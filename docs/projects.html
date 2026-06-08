@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>專案作品 | Jerry Lee</title>
+  <meta name="description" content="Jerry Lee 個人品牌網站，主題包含數位 IC 設計、FPGA、Verilog、PUF、VLSI 與硬體安全。" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <canvas id="particles"></canvas>
+  <div class="grid-bg"></div>
+  <div class="orb"></div>
+
+  
+<header class="navbar">
+  <a class="brand" href="index.html" aria-label="Jerry Lee Portfolio 首頁">
+    <span class="logo">JL</span>
+    <span>Jerry Lee</span>
+  </a>
+
+  <nav class="nav-links" aria-label="主選單">
+    <a href="index.html" class="">首頁</a>
+    <a href="about.html" class="">關於我</a>
+    <a href="skills.html" class="">技能</a>
+    <a href="projects.html" class="active">專案</a>
+    <a href="timeline.html" class="">時間軸</a>
+    <a href="research.html" class="">研究</a>
+    <a href="achievements.html" class="">成就</a>
+    <a href="contact.html" class="">聯絡</a>
+  </nav>
+
+  <button class="theme-btn" id="themeBtn" type="button">🌙 深色</button>
+</header>
+
+
+  <main>
+    
+<section class="page-section">
+  <div class="container">
+    <div class="section-title reveal">
+      <span>Featured Projects</span>
+      <h1>專案作品</h1>
+      <p>
+        專案頁是整個作品集最重要的地方。這裡展示能拿去和教授、研究所或公司討論的實作內容。
+      </p>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card glass reveal tilt">
+        <div class="project-icon">🔐</div>
+        <h3>RO-PUF 晶片設計</h3>
+        <p>
+          以 Ring Oscillator PUF 為核心的硬體安全專題，
+          包含 challenge-response 架構、計數器比較、RTL 設計與 TSRI 90nm 下線規劃。
+        </p>
+        <div class="tag-row">
+          <span class="tag">TSRI 90nm</span>
+          <span class="tag">PUF</span>
+          <span class="tag">Verilog</span>
+        </div>
+        <a class="learn" href="contact.html">了解更多 →</a>
+      </article>
+
+      <article class="project-card glass reveal tilt">
+        <div class="project-icon">🧠</div>
+        <h3>Gaussian Filter</h3>
+        <p>
+          影像處理硬體加速專案，重點包含卷積架構、行緩衝、MAC 運算、模擬與 FPGA 驗證。
+        </p>
+        <div class="tag-row">
+          <span class="tag">影像處理</span>
+          <span class="tag">FPGA</span>
+          <span class="tag">RTL</span>
+        </div>
+        <a class="learn" href="contact.html">了解更多 →</a>
+      </article>
+
+      <article class="project-card glass reveal tilt">
+        <div class="project-icon">🧪</div>
+        <h3>PCB AOI 檢測</h3>
+        <p>
+          機器視覺檢測流程，包含影像擷取、前處理、邊緣分析、瑕疵判斷與自動光學檢測應用。
+        </p>
+        <div class="tag-row">
+          <span class="tag">機器視覺</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">AOI</span>
+        </div>
+        <a class="learn" href="contact.html">了解更多 →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Jerry Lee. 專注於數位 IC 設計、FPGA 與硬體安全。
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

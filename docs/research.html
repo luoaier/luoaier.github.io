@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>研究方向 | Jerry Lee</title>
+  <meta name="description" content="Jerry Lee 個人品牌網站，主題包含數位 IC 設計、FPGA、Verilog、PUF、VLSI 與硬體安全。" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <canvas id="particles"></canvas>
+  <div class="grid-bg"></div>
+  <div class="orb"></div>
+
+  
+<header class="navbar">
+  <a class="brand" href="index.html" aria-label="Jerry Lee Portfolio 首頁">
+    <span class="logo">JL</span>
+    <span>Jerry Lee</span>
+  </a>
+
+  <nav class="nav-links" aria-label="主選單">
+    <a href="index.html" class="">首頁</a>
+    <a href="about.html" class="">關於我</a>
+    <a href="skills.html" class="">技能</a>
+    <a href="projects.html" class="">專案</a>
+    <a href="timeline.html" class="">時間軸</a>
+    <a href="research.html" class="active">研究</a>
+    <a href="achievements.html" class="">成就</a>
+    <a href="contact.html" class="">聯絡</a>
+  </nav>
+
+  <button class="theme-btn" id="themeBtn" type="button">🌙 深色</button>
+</header>
+
+
+  <main>
+    
+<section class="page-section">
+  <div class="container">
+    <div class="section-title reveal">
+      <span>Research</span>
+      <h1>研究方向</h1>
+      <p>
+        研究頁要保持乾淨、正式、有重點。教授通常最想看到你是否有清楚的研究問題與技術方向。
+      </p>
+    </div>
+
+    <div class="research-grid">
+      <div class="research-card glass reveal tilt">
+        <h3>RO-PUF 架構設計</h3>
+        <p>
+          研究 challenge-response pair、ring oscillator 選擇、counter 比較、可靠度、唯一性與安全性。
+        </p>
+        <div class="tag-row">
+          <span class="tag">PUF</span>
+          <span class="tag">Hardware Security</span>
+          <span class="tag">RTL</span>
+        </div>
+      </div>
+
+      <div class="research-card glass reveal tilt">
+        <h3>機器視覺 AOI 檢測</h3>
+        <p>
+          研究影像前處理、邊緣偵測、瑕疵分類與電子製造中的自動光學檢測應用。
+        </p>
+        <div class="tag-row">
+          <span class="tag">Machine Vision</span>
+          <span class="tag">AOI</span>
+          <span class="tag">OpenCV</span>
+        </div>
+      </div>
+
+      <div class="research-card glass reveal tilt">
+        <h3>數位 IC 與硬體安全</h3>
+        <p>
+          研究安全數位硬體設計、抗複製技術、FPGA 原型驗證與 ASIC 設計流程。
+        </p>
+        <div class="tag-row">
+          <span class="tag">Digital IC</span>
+          <span class="tag">VLSI</span>
+          <span class="tag">FPGA</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Jerry Lee. 專注於數位 IC 設計、FPGA 與硬體安全。
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
